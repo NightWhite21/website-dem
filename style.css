@@ -1,0 +1,127 @@
+body {
+  min-height: 100vh;
+  margin: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in;
+    background-image: linear-gradient(to right, red, black, white);
+}
+
+body.loaded {
+  opacity: 1;
+}
+.text{
+    color: rgba(255, 255, 255, 0.671);
+  font-size: 70px;
+  font-family: cursive;
+  opacity: 100%;
+  display: flex;
+  margin: 0;
+  background-image: linear-gradient(to right, red, black, white);
+}
+.r67 {
+  color: rgba(255, 30, 0, 0.671);
+  font-size: 70px;
+  justify-content: center;
+  display: flex;
+  margin: 0;
+  background-image: linear-gradient(to right, red, black, white);
+}
+.navbar {
+  display: flex;
+  gap: 10px;
+  padding: 15px 20px;
+  background-color: black;
+}
+
+.navbar button {
+  background-color: transparent;
+  color: white;
+  border: 2px solid red;
+  padding: 8px 18px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: red;
+  color: white;
+}
+.imagess{
+  justify-content: left;
+  display:flex;
+  padding:50px;
+  margin:50px
+}
+.img {
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  justify-content: left;
+}
+.img1 {
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  justify-content: left;
+}
+.img3 {
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  justify-content: left;
+}
+.img4 {
+  width: 300px;
+  height: auto;
+  margin: 20px auto;
+  justify-content: left;
+}
+.tytle{
+  color: rgba(255, 255, 255, 0.671);
+  font-size: 70px;
+  font-family: cursive;
+  display: flex;
+  margin: 0;
+  background-image: linear-gradient(to right, red, black, white);
+}
+.main_text{
+    color: rgba(255, 255, 255, 0.671);
+  font-size: 20px;
+  font-family: cursive;
+  opacity: 100%;
+  display: flex;
+  margin: 0;
+  background-image: linear-gradient(to right, red, black, white);
+}
+.songs {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 16px;
+  padding: 20px;
+}
+iframe {
+  border-radius: 12px;
+  border: 1px solid rgba(255, 0, 0, 0.3);
+  transition: box-shadow 0.3s;
+}
+iframe:hover {
+  box-shadow: 0 0 50px rgba(0, 0, 0, 0.979);
+}
+.playlist {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 16px;
+}
+
+.list {
+    border-radius: 12px;
+    overflow: hidden;
+}
+.song-number {
+  font-size: 30px;
+  color: rgba(238, 128, 128, 0.911);
+  font-family: cursive;
+  font-weight: bold;
+}
